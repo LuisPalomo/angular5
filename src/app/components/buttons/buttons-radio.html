@@ -1,0 +1,11 @@
+<div class="btn-group" ngbRadioGroup name="radioBasic" [(ngModel)]="temp">
+  <label ngbButtonLabel class="btn-primary" (click)="sendToParent('c')">
+    <input ngbButton type="radio" value="c"> Cº
+  </label>
+  <label ngbButtonLabel class="btn-primary" (click)="sendToParent('f')">
+    <input ngbButton type="radio" value="f"> Fº
+  </label>
+  <label ngbButtonLabel class="btn-primary" (click)="sendToParent('k')">
+    <input ngbButton type="radio" value="k"> K
+  </label>
+</div>
